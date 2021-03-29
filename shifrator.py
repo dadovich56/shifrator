@@ -80,6 +80,10 @@ t = {  ' ': 'psihfyiftushtsuhdtdhdtr56r7tgyu45e6rt7gtf45ert6wdsdwdwdwerrrr',
 z = input('text: ')
 v = input('шифровать или дешифровать? ш/д: ')
 
+def reverse(string): 
+    string = "".join(reversed(string)) 
+    return string 
+
 def shifr(z):
 	a = 0
 	b = 1
@@ -91,6 +95,7 @@ def shifr(z):
 	return itog
 
 def deshifr(z):
+	z = reverse(z)
 	a = 0
 	b = 61
 	itog = ''
@@ -108,6 +113,6 @@ def deshifr(z):
 	return itog
 
 if v == 'ш':
-	print('итог: ' + shifr(z))
+	print('итог: ' + reverse(shifr(z)))
 else:
 	print('итог: ' + deshifr(z))

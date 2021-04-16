@@ -88,8 +88,20 @@ def badab(strong):
 	badabum1 = len(strong)
 	badabum2 = int(badabum1) / 2
 	badabum3 = int(badabum2) + 1
-	strong = strong[int(badabum2):int(badabum1)] + strong[0:int(badabum2)]
+	strong = strong[int(badabum2):int(badabum1)]+ strong[0:int(badabum2)]
 	return strong
+
+def superbadab(streng):
+	der = len(streng)
+	gab = int(der) - 10
+	bad1 = int(gab) - 1
+	streng = reverse(streng[int(gab):int(der)]) + streng[0:int(gab)]
+	return streng
+
+def minusovoisb(stryeng):
+	badgh = len(stryeng)
+	stryeng = stryeng[10:int(badgh)] + reverse(stryeng[0:10])
+	return stryeng
 
 def shifr(z):
 	a = 0
@@ -102,6 +114,7 @@ def shifr(z):
 	return itog
 
 def deshifr(z):
+	z = minusovoisb(z)
 	z = badab(z)
 	z = reverse(z)
 	a = 0
@@ -121,6 +134,6 @@ def deshifr(z):
 	return itog
 
 if v == 'ш':
-	print('итог: ' + badab(reverse(shifr(z))))
+	print('итог: ' + superbadab(badab(reverse(shifr(z)))))
 else:
 	print('итог: ' + deshifr(z))

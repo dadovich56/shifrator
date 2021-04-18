@@ -1,4 +1,4 @@
-alfavit = ' abcdefghijklmnopqrstuvwxyz@$-?!:1234567890абвгдеёжзийклмнопрстуфхцчшщьъыэюя'
+alfavit = ' abcdefghijklmnopqrstuvwxyz@$-?!:,1234567890абвгдеёжзийклмнопрстуфхцчшщьъыэюя'
 t = {  ' ': 'psihfyiftushtsuhdtdhdtr56r7tgyu45e6rt7gtf45ert6wdsdwdwdwerrrrq',
        'a': 'hdiejwupqpuyahjagidjvyee45t768gyuvht6dtr5t76gytf67gyu66363t6q6',
        'b': 'pwpwiowkwhssfdghjkrstzwesr45ctydr76gye45t76fdr6e45t7q6gyde65r6',
@@ -32,6 +32,7 @@ t = {  ' ': 'psihfyiftushtsuhdtdhdtr56r7tgyu45e6rt7gtf45ert6wdsdwdwdwerrrrq',
        '?': '28sbhbdyusajndyuy89db78wudnsdv89udjwjhdvw8r5678ugfr678ihgqtfty',
        '!': 'w88hsgusjjagswjdhsgdwdgwudhudhywui3vduzse5erftredfg8q7tr67uhgf',
        ':': 'ajhdguiuiwidafyut7893dt7sijhkdwafudt7yuh3678uihdbxt5q6tu87ygfc',
+       ',': '3456yughhyusvdhuisvdyugwydvftsygdyhfgdgshbw7878w76wwudw8yuddwd',
        '1': '28whgsuhsvy8sgyysyufgwsyhtqtyu2gys7yus76a82snsghaj45q67tfgrth3',
        '2': 'trgerr5tyddqrgxdfvsdgjhbftyuhyussyuy78g7ugyfr567uhgft67ujgt67u',
        '3': 'xtygsbhusaswyqdgsgydy727wt6dgb7dhgd8shgdwggdshdhwh567uhgfrt67u',
